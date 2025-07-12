@@ -78,13 +78,13 @@ export default function Navbar() {
 							</Link>
 						</motion.li>
 					))}
-					<motion.li whileHover={{ scale: 1.1 }}>
+					{/* <motion.li whileHover={{ scale: 1.1 }}>
 						<Link
 							href="/login"
 							className="bg-[#8551ff] text-white px-4 py-2 rounded-md hover:bg-[#8A2BE2] transition">
 							Login
 						</Link>
-					</motion.li>
+					</motion.li> */}
 				</ul>
 			</div>
 
@@ -118,13 +118,13 @@ export default function Navbar() {
 									</Link>
 								</motion.li>
 							))}
-							<motion.li whileHover={{ scale: 1.1 }}>
+							{/* <motion.li whileHover={{ scale: 1.1 }}>
 								<Link
 									href="/login"
 									className="block bg-[#8A2BE2] text-white px-4 py-2 rounded-md hover:bg-[#4B0082] transition text-center">
 									Login
 								</Link>
-							</motion.li>
+							</motion.li> */}
 						</ul>
 					</motion.div>
 				)}
